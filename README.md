@@ -9,7 +9,7 @@ Foi desenvolvido em **React + TypeScript**, com Node.js **v22.14.0** como ambien
 - [React](https://react.dev/)  
 - [TypeScript](https://www.typescriptlang.org/)  
 - [Sass](https://sass-lang.com/)  
-- [Vite](https://vitejs.dev/) (se você usou Vite como bundler)  
+- [Vite](https://vitejs.dev/)
 - [Node.js](https://nodejs.org/) **v22.14.0**  
 
 ---
