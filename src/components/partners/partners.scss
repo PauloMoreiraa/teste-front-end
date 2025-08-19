@@ -1,0 +1,10 @@
+@use "./../../styles/variables" as *;
+
+.partnersContainer {
+  margin-top: 24px;
+  display: flex;
+  width: 100%;
+  padding: $padding-page;
+  gap: 10px;
+  padding-bottom: 90px;
+}

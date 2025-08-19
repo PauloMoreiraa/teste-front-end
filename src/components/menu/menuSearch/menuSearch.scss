@@ -1,0 +1,40 @@
+@use "./../../../styles/variables" as *;
+
+.menuSearch {
+  position: relative;
+
+  .menuSearchInput {
+    width: 630px;
+    height: 48px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    background-color: $gray-3;
+    border: none;
+    font-weight: 500;
+    color: $gray-4;
+
+    @media (max-width: 1000px) {
+      width: 350px;
+    }
+
+    &::placeholder {
+      color: $gray-4;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .menuSearchIcon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    pointer-events: none;
+  }
+}

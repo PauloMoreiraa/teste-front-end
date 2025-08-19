@@ -1,0 +1,15 @@
+@use "./../../styles/variables" as *;
+
+.categories {
+  display: flex;
+  padding: $padding-page;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+  }
+}

@@ -1,31 +1,92 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
+# 🖥️ Teste Front-End
 
-### Vem ser #Econverse!
+Este projeto é baseado no desafio técnico da **Econverse** para a vaga de Desenvolvedor(a) Front-End Júnior.  
+Foi desenvolvido em **React + TypeScript**, com Node.js **v22.14.0** como ambiente.
 
-Segue abaixo as instruções para a execução do teste.
+---
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br, joao.victor@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
+## 🚀 Tecnologias Utilizadas
+- [React](https://react.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Sass](https://sass-lang.com/)  
+- [Vite](https://vitejs.dev/) (se você usou Vite como bundler)  
+- [Node.js](https://nodejs.org/) **v22.14.0**  
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+---
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+## 📦 Pré-requisitos
+Antes de começar, você precisa ter instalado em sua máquina:
+- [Node.js v22.14.0](https://nodejs.org/) (ou versão LTS mais recente)  
+- [npm](https://www.npmjs.com/) (já vem junto com o Node) **ou** [yarn](https://yarnpkg.com/)
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+Verifique a instalação com:
+```bash
+node -v
+# v22.14.0
+npm -v
+# v10.9.2
+```
 
-**Boa sorte! ;)**
+---
+
+## 🔧 Como Rodar o Projeto Localmente
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/PauloMoreiraa/teste-front-end.git
+cd teste-front-end
+```
+
+### 2. Instale as dependências
+Se estiver usando **npm**:
+```bash
+npm install
+```
+Ou, se preferir usar **yarn**:
+```bash
+yarn install
+```
+
+### 3. Rode o projeto
+Se o projeto usa **Vite**, rode:
+```bash
+npm run dev
+```
+ou
+```bash
+yarn dev
+```
+
+Se for **Create React App**, rode:
+```bash
+npm start
+```
+
+### 4. Abra no navegador
+O projeto vai rodar em:
+```
+http://localhost:5173
+```
+ou
+```
+http://localhost:3000
+```
+(depende se você usou **Vite** ou **CRA**)
+
+---
+
+## 🛠️ Scripts Disponíveis
+- `dev` → roda o projeto em modo de desenvolvimento (Vite)  
+- `build` → gera a versão de produção  
+- `preview` → roda um servidor local para pré-visualizar a build  
+
+---
+
+## 📌 Observações
+- Este projeto foi configurado e testado utilizando **Node.js v22.14.0**  
+- Caso use uma versão diferente do Node, recomenda-se utilizar [nvm](https://github.com/nvm-sh/nvm) para alternar versões  
+
+---
+
+## ✨ Autor
+👤 [Paulo Moreira](https://github.com/PauloMoreiraa)  

@@ -1,0 +1,38 @@
+@use "./../../styles/variables" as *;
+
+.productsSection {
+  margin-top: 90px;
+
+  .sectionSubtitle {
+    color: $black-2;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .titleContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    padding: $padding-page;
+
+    .line {
+      position: relative;
+      width: 90%;
+      height: 1px;
+      background-color: $gray-6;
+    }
+
+    .sectionTitle {
+      font-size: 30px;
+      font-weight: bold;
+      color: $blue-1;
+      position: absolute;
+      background-color: $white-1;
+      padding: $padding-page;
+    }
+  }
+}

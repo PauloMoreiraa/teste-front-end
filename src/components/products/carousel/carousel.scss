@@ -1,0 +1,126 @@
+@use "./../../../styles/variables" as *;
+
+.carouselContainer {
+  position: relative;
+  width: 100%;
+  padding: 24px 0;
+
+  .carousel {
+    height: 100%;
+    padding: 24px 0;
+
+    .productCard {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      background-color: $white-1;
+      box-shadow: $box-shadow-3;
+      height: min-content;
+      border-radius: $border-radius-1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      z-index: 20;
+      padding: 17px 12.39px;
+
+      .productInfos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img {
+          width: 100%;
+          max-width: 278px;
+          margin: 0 auto 8px auto;
+          display: block;
+        }
+
+        h3 {
+          font-size: 15px;
+          font-weight: 200;
+          padding-bottom: 12px;
+          color: $black-2;
+        }
+
+        .oldPrice {
+          text-decoration: line-through;
+          font-size: 16px;
+          color: $gray-5;
+          padding-bottom: 2px;
+        }
+
+        .currentPrice {
+          font-size: 20px;
+          font-weight: bold;
+          color: $black-2;
+        }
+
+        .installments {
+          color: $black-1;
+          font-size: 12px;
+          padding-bottom: 7px;
+        }
+
+        span {
+          color: $blue-1;
+          font-size: 12px;
+        }
+
+        .buyButton {
+          font-size: 14px;
+          font-weight: bold;
+          text-transform: uppercase;
+          color: $white-1;
+          background-color: $blue-1;
+          border-radius: 4px;
+          width: 100%;
+          height: 44px;
+          border: none;
+          cursor: pointer;
+          transition: 0.3s;
+          margin-top: 7px;
+          font-family: "Poppins", sans-serif;
+
+          &:hover {
+            opacity: 0.7;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+
+  .carouselBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    background-color: $white-1;
+    box-shadow: $box-shadow-1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 7.47px;
+    }
+
+    &.custom-prev {
+      left: 20px;
+    }
+
+    &.custom-next {
+      right: 20px;
+    }
+  }
+}

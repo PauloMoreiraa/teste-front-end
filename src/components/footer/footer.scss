@@ -1,0 +1,87 @@
+@use "./../../styles/variables" as *;
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .bodyFooter {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 42px 80px;
+    background-color: $gray-2;
+
+    .footerColumnFirst {
+      display: flex;
+      flex-direction: column;
+      padding-right: 45px;
+      width: 40%;
+      border-right: 1px solid rgba(40, 40, 40, 18%);
+      padding-right: 45px;
+      gap: 10px;
+
+      .footerLogo {
+        width: 164px;
+      }
+
+      .footerDescription {
+        margin-top: 15px;
+        width: calc(100% - 90px);
+      }
+
+      .socialIcons {
+        display: flex;
+        gap: 26px;
+        margin-top: 27px;
+
+        a {
+          img {
+            width: 24px;
+          }
+        }
+      }
+    }
+
+    .footerColumn {
+      padding-left: 90px;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+
+      .subtitle {
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(34, 34, 34, 71%);
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        li {
+          a {
+            color: rgba(34, 34, 34, 71%);
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    background-color: $white-1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46.84px;
+
+    .copyName {
+      color: $black-2;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+}

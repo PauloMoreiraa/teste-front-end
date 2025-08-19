@@ -1,0 +1,22 @@
+@use "./../../styles/variables" as *;
+.brandsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .brandTitle {
+    font-size: 30px;
+    color: $blue-1;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .brands {
+    padding: $padding-page;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+  }
+}

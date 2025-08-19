@@ -1,0 +1,40 @@
+@use "./../../../styles/variables" as *;
+
+.tableNav {
+  padding: $padding-page;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+
+  .table {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+
+    .tableNavItem {
+      border: 1px solid #000;
+      border-left: none;
+      padding: 12px 58px;
+      width: 25%;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $black-1;
+      text-decoration: none;
+
+      &:first-child {
+        border-left: 1px solid #000;
+        font-weight: bold;
+
+        a {
+          color: $blue-1 !important;
+        }
+      }
+
+      a {
+        color: $black-1;
+      }
+    }
+  }
+}

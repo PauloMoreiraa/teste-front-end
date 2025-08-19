@@ -1,0 +1,54 @@
+@use "./../../../styles/variables" as *;
+
+.menuBottomItem {
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: $gray-4;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.menuBottomItemIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.highlight {
+  color: $purple-1;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .menuBottomItem {
+    a {
+      font-size: 12px;
+    }
+  }
+
+  .menuBottomItemIcon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menuBottom {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 12px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .menuBottom ul {
+    display: inline-flex;
+  }
+}
