@@ -57,11 +57,6 @@ ou
 yarn dev
 ```
 
-Se for **Create React App**, rode:
-```bash
-npm start
-```
-
 ### 4. Abra no navegador
 O projeto vai rodar em:
 ```
