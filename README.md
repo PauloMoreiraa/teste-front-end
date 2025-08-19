@@ -70,6 +70,21 @@ http://localhost:3000
 
 ---
 
+## 📦 Compilar para Produção
+
+Para gerar a build de produção, use:
+```bash
+npm run build
+```
+Isso vai criar a pasta **dist/** com os arquivos otimizados.
+
+Se quiser testar a build localmente:
+```bash
+npm run preview
+```
+
+---
+
 ## 🛠️ Scripts Disponíveis
 - `dev` → roda o projeto em modo de desenvolvimento (Vite)  
 - `build` → gera a versão de produção  
